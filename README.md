@@ -1,13 +1,7 @@
 lua-gc
 ======
 
-Benchmarks
+LUA-VM Garbage Collector Benchmarking
 
-Create Diff:
-diff -ur lua.new lua > lua.patch
-
-Instructions:
-Copy lua.patch to package folder.
-Edit PKGBUILD in order to include lua.patch file and add it to prepare
-Build with the follow command: makepkg --skipchecksums -f
-Install it as normal
+The final report was written in portuguese:
+- report-13-14-project-EE.pdf
